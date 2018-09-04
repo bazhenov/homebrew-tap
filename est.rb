@@ -5,7 +5,7 @@
 class Est < Formula
   desc "Fast probabilistic cli utilities for estimating cardinality"
   homepage "https://github.com/bazhenov/fast-estimate"
-	url "https://github.com/bazhenov/fast-estimate/archive/v0.1.0.tar.gz"
+	url "https://github.com/bazhenov/fast-estimate/archive/v0.1.1.tar.gz"
   sha256 "54a6b42186d470fdb7e43d2d26e3316690a6eb613a48ab22c305ce21674eabb5"
 
   depends_on "rust" => :build
