@@ -10,6 +10,11 @@ class Est < Formula
 
   depends_on "rust" => :build
 
+	bottle do
+		root_url "https://dl.bintray.com/dotsid/fast-estimate"
+    sha256 "06c66c00b63c1e2bb350ced0f5882b37012d7e068d7991522dbf124d7224c722" => :high_sierra
+	end
+
   def install
 		system "cargo", "build", "--release"
 		bin.install "target/release/est"
