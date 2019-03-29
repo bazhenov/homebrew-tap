@@ -7,9 +7,11 @@ class Est < Formula
   depends_on "rust" => :build
 
 	bottle do
-		root_url "https://github.com/bazhenov/fast-estimate/releases/download/v0.1.1/"
-    sha256 "06c66c00b63c1e2bb350ced0f5882b37012d7e068d7991522dbf124d7224c722" => :high_sierra
-	end
+    root_url "https://github.com/bazhenov/fast-estimate/releases/download/v0.2/"
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "f343d385f549f144f4a9eec9c86930f924b9650d21ac2a21fe2ba90048e35c7b" => :mojave
+  end
 
   def install
 		system "cargo", "build", "--release"
