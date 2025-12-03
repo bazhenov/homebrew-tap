@@ -5,13 +5,13 @@ class Ttr < Formula
   head "https://github.com/bazhenov/ttr.git", branch: "master"
 
   on_macos do
-    url "https://github.com/bazhenov/ttr/releases/download/0.3.0/ttr-0.3.0-x86_64-apple-darwin.tar.gz"
-    sha256 "71c848e67ccac5ef18a95da4462fb004d4dce2cacfc99cd5f06503b7a4ee509d"
+    url "https://github.com/bazhenov/ttr/releases/download/0.4.0/ttr-0.4.0-x86_64-apple-darwin.tar.gz"
+    sha256 "c7072ae445e7a310a4fe9d3a13d1dd948ec2fae9477f260e2f515446b4a55dfe"
   end
 
   on_linux do
-    url "https://github.com/bazhenov/ttr/releases/download/0.3.0/ttr-0.3.0-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "9d7d1824954dfea085a206d108500ef84d375315a1042449a13ce8fb45569ca9"
+    url "https://github.com/bazhenov/ttr/releases/download/0.4.0/ttr-0.4.0-x86_64-unknown-linux-gnu.tar.gz"
+    sha256 "32e5a6255647730e5e46cdb042265600e64a61cefa008e6b9dcda84798f697f5"
   end
 
   def install
