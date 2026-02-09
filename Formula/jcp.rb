@@ -1,15 +1,15 @@
 class Jcp < Formula
   desc "JetBrains Cloud Platform CLI"
-  homepage "https://github.com/jetbrains/jcp-cli"
-  version "0.1.0"
+  homepage "https://github.com/bazhenov/jcp-cli"
+  version "0.1.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/jetbrains/jcp-cli/releases/download/v0.1.0/jcp-aarch64-apple-darwin.tar.xz"
-      sha256 "a986b6948fa8e37840d1867181f3a4245a63325d34345df6f1333ea4ac12139e"
+      url "https://github.com/bazhenov/jcp-cli/releases/download/v0.1.1/jcp-aarch64-apple-darwin.tar.xz"
+      sha256 "c20d8fa5cf84e0e2c888e5e35dd7f9ba075824ef75f21c185b3841a82291be04"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/jetbrains/jcp-cli/releases/download/v0.1.0/jcp-x86_64-apple-darwin.tar.xz"
-      sha256 "5363a45ce9ea72404bc5a20b3c190cc53e5c48193bbeeaa37d25e2ff00db59b6"
+      url "https://github.com/bazhenov/jcp-cli/releases/download/v0.1.1/jcp-x86_64-apple-darwin.tar.xz"
+      sha256 "a1fcf1f4d75a3bbf6268ad1e16ca87c1d328a3e3824e9791293f0d49459c5afe"
     end
   end
 
